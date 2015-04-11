@@ -1,0 +1,9 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: After running git init, it initializes the directory ready to make it a git repository. It is necessary to do that since this is the first initialization step for starting to version-controlling.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: Staging area is the middle ground between the working directory (the one in the computer) and the repository. To add files to the directory we first add the files to the staging area and after all that has been done, we finally upload the whole thing to the repository.
+
+
