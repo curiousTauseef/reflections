@@ -9,3 +9,7 @@ A: Staging area is the middle ground between the working directory (the one in t
 Q: How can you use the staging area to make sure you have one commit per logical change?
 
 A: The files should only be added to the staging area if you feel that we have made one logical change. Then while committing, we can add a specific message which will ensure that only one logical change has been permitted per commit. If there are more than one logical change in the file and the file has already been staged, it can easily be removed, necessary adjustments made and then restaged to be committed to the repository.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When creating a new experimental feature upon the well built application or to create something so that only some people can use it and not everybody. We need branches in that condition so that without touching/damaging the original content of the file, we can do something else and start to develop some new features. When we need to combine the branches, that is also easy.
