@@ -6,4 +6,6 @@ Q: How is the staging area different from the working directory and the reposito
 
 A: Staging area is the middle ground between the working directory (the one in the computer) and the repository. To add files to the directory we first add the files to the staging area and after all that has been done, we finally upload the whole thing to the repository.
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
 
+A: The files should only be added to the staging area if you feel that we have made one logical change. Then while committing, we can add a specific message which will ensure that only one logical change has been permitted per commit. If there are more than one logical change in the file and the file has already been staged, it can easily be removed, necessary adjustments made and then restaged to be committed to the repository.
