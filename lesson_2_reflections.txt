@@ -13,3 +13,7 @@ A: The files should only be added to the staging area if you feel that we have m
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 A: When creating a new experimental feature upon the well built application or to create something so that only some people can use it and not everybody. We need branches in that condition so that without touching/damaging the original content of the file, we can do something else and start to develop some new features. When we need to combine the branches, that is also easy.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: When we make a diagram, we can use arrows to show how a new item (branch) was created. So this way we can know who the parent is and how that particular branch associates and if we can reach all the branches through it. So the whole structure of the program can be easily understood.
