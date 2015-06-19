@@ -1,0 +1,4 @@
+Q: When would you want to use a remote repository rather than keeping your work local?
+
+A: When I feel that I can share my work publicly with everyone, I can use a remote repository 
+to push it to the public server.
