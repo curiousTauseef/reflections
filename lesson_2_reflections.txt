@@ -21,3 +21,7 @@ A: When we make a diagram, we can use arrows to show how a new item (branch) was
 Q: What is the result of merging two branches together? Why do we represent it in the diagram in the way we do?
 
 A: When we merge two branches together, say branch1 and branch2, then branch2 will merge with branch1 and a new branch1 will be formed whose parents will be both from previous branch1 and branch2. The diagrams that we make will make things even more clear. We can exactly say if we can reach a particular branch that we are in. 
+
+Q: What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+A: When Git automatically merges two branches then we might not be sure if correct information has been updated provided two different people were working on the same code. But when manually merging, this conflict can be avoided.
