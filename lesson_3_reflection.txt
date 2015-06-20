@@ -5,3 +5,9 @@ A: When I feel that I can share my work publicly with everyone, I can use a remo
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A: Sometimes we might be working on our new feature and we wouldnt want any other thing happening on the public repository affect our feature. If that were to happen, we would encounter unexpected bugs. So after completing our feature, we can pull the changes and see if we need to make necessary adjustments. That way things are more organized and under the control of individual programmers.
+
+Q: Describe the differences between forks, clones and branches. When would you use one instead of another?
+
+A: fork is used when we want to use someone else's repository and make changes to it ourselves but not making the change in the author's repository.
+   Cloning is simply copying the repository online to your system. If you push or pull, it will directly update on wherever you have cloned from (ofcourse it has to be approved by the author)
+  Branches are simply paths that we create which are for our personal use. Not necessary to upload them or do anything such.
