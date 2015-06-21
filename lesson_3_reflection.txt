@@ -15,3 +15,7 @@ A: fork is used when we want to use someone else's repository and make changes t
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: When the last known state of the remote is stored, the position of origin/master is stored. Now when we are working offline, we can make commits to our local repository and not disturb the state of the remote last archived. Again when we get back online, we can easily update the repository from where we left by creating a branch. This will allow us not to be disturbed in our work. Later when our work is complete, we can merge it back and push it to the Github repository.
+
+Q: How would you collaborate without using Git or Github? What would be easier and what would be harder?
+
+A: Sending in long pieces of information (especially codes) through email will be a tedious job as there will be no proper management of the code and difficult to explain what exactly is happening. But when we use Git or Github, all such things are managed and we can focus on the more necessary work. Using Git and Github would be more easier than using any other kind of service.
