@@ -19,3 +19,7 @@ A: When the last known state of the remote is stored, the position of origin/mas
 Q: How would you collaborate without using Git or Github? What would be easier and what would be harder?
 
 A: Sending in long pieces of information (especially codes) through email will be a tedious job as there will be no proper management of the code and difficult to explain what exactly is happening. But when we use Git or Github, all such things are managed and we can focus on the more necessary work. Using Git and Github would be more easier than using any other kind of service.
+
+Q: When would you want to make changes in a seperate branch rather than directly in master? What benefits do each approach have?
+
+A: When we are working on some feature and before it gets incorporated into the main product, if we want to get feedback and approval, then we can have a separate branch and work on it. Later we can push that branch and go for a pull request. If the other collaborators find it good, they can than merge it into the master. Rather than updating on the master, if we work separately on our own branches, it won't introduce conflicts which we might not know of. Better to go with a different branch and later merge them.
