@@ -1,27 +1,54 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
-A: After running git init, it initializes the directory ready to make it a git repository. It is necessary to do that since this is the first initialization step for starting to version-controlling.
+A: After running git init, it initializes the directory ready to make it a git 
+repository. It is necessary to do that since this is the first initialization 
+step for starting to version-controlling.
 
-Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+Q: How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
 
-A: Staging area is the middle ground between the working directory (the one in the computer) and the repository. To add files to the directory we first add the files to the staging area and after all that has been done, we finally upload the whole thing to the repository.
+A: Staging area is the middle ground between the working directory (the one in 
+the computer) and the repository. To add files to the directory we first add the 
+files to the staging area and after all that has been done, we finally upload the 
+whole thing to the repository.
 
-Q: How can you use the staging area to make sure you have one commit per logical change?
+Q: How can you use the staging area to make sure you have one commit per logical 
+change?
 
-A: The files should only be added to the staging area if you feel that we have made one logical change. Then while committing, we can add a specific message which will ensure that only one logical change has been permitted per commit. If there are more than one logical change in the file and the file has already been staged, it can easily be removed, necessary adjustments made and then restaged to be committed to the repository.
+A: The files should only be added to the staging area if you feel that we have 
+made one logical change. Then while committing, we can add a specific message 
+which will ensure that only one logical change has been permitted per commit. If 
+there are more than one logical change in the file and the file has already been 
+staged, it can easily be removed, necessary adjustments made and then restaged to 
+be committed to the repository.
 
-Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Q: What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
 
-A: When creating a new experimental feature upon the well built application or to create something so that only some people can use it and not everybody. We need branches in that condition so that without touching/damaging the original content of the file, we can do something else and start to develop some new features. When we need to combine the branches, that is also easy.
+A: When creating a new experimental feature upon the well built application or 
+to create something so that only some people can use it and not everybody. We 
+need branches in that condition so that without touching/damaging the original 
+content of the file, we can do something else and start to develop some new 
+features. When we need to combine the branches, that is also easy.
 
 Q: How do the diagrams help you visualize the branch structure?
 
-A: When we make a diagram, we can use arrows to show how a new item (branch) was created. So this way we can know who the parent is and how that particular branch associates and if we can reach all the branches through it. So the whole structure of the program can be easily understood.
+A: When we make a diagram, we can use arrows to show how a new item (branch) was 
+created. So this way we can know who the parent is and how that particular branch 
+associates and if we can reach all the branches through it. So the whole structure 
+of the program can be easily understood.
 
-Q: What is the result of merging two branches together? Why do we represent it in the diagram in the way we do?
+Q: What is the result of merging two branches together? Why do we represent it in 
+the diagram in the way we do?
 
-A: When we merge two branches together, say branch1 and branch2, then branch2 will merge with branch1 and a new branch1 will be formed whose parents will be both from previous branch1 and branch2. The diagrams that we make will make things even more clear. We can exactly say if we can reach a particular branch that we are in. 
+A: When we merge two branches together, say branch1 and branch2, then branch2 will 
+merge with branch1 and a new branch1 will be formed whose parents will be both from 
+previous branch1 and branch2. The diagrams that we make will make things even more 
+clear. We can exactly say if we can reach a particular branch that we are in. 
 
-Q: What are the pros and cons of Git's automatic merging vs always doing merges manually?
+Q: What are the pros and cons of Git's automatic merging vs always doing merges 
+manually?
 
-A: When Git automatically merges two branches then we might not be sure if correct information has been updated provided two different people were working on the same code. But when manually merging, this conflict can be avoided.
+A: When Git automatically merges two branches then we might not be sure if correct 
+information has been updated provided two different people were working on the same 
+code. But when manually merging, this conflict can be avoided.

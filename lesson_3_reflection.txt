@@ -1,25 +1,58 @@
-Q: When would you want to use a remote repository rather than keeping your work local?
+Q: When would you want to use a remote repository rather than keeping 
+your work local?
 
-A: When I feel that I can share my work publicly with everyone, I can use a remote repository to push it to the public server.
+A: When I feel that I can share my work publicly with everyone, I can 
+use a remote repository to push it to the public server.
 
-Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Q: Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
 
-A: Sometimes we might be working on our new feature and we wouldnt want any other thing happening on the public repository affect our feature. If that were to happen, we would encounter unexpected bugs. So after completing our feature, we can pull the changes and see if we need to make necessary adjustments. That way things are more organized and under the control of individual programmers.
+A: Sometimes we might be working on our new feature and we wouldnt want 
+any other thing happening on the public repository affect our feature. 
+If that were to happen, we would encounter unexpected bugs. So after 
+completing our feature, we can pull the changes and see if we need to make 
+necessary adjustments. That way things are more organized and under the 
+control of individual programmers.
 
-Q: Describe the differences between forks, clones and branches. When would you use one instead of another?
+Q: Describe the differences between forks, clones and branches. When would 
+you use one instead of another?
 
-A: fork is used when we want to use someone else's repository and make changes to it ourselves but not making the change in the author's repository.
-   Cloning is simply copying the repository online to your system. If you push or pull, it will directly update on wherever you have cloned from (ofcourse it has to be approved by the author)
-  Branches are simply paths that we create which are for our personal use. Not necessary to upload them or do anything such.
+A: fork is used when we want to use someone else's repository and make 
+changes to it ourselves but not making the change in the author's repository.
+Cloning is simply copying the repository online to your system. If you push 
+or pull, it will directly update on wherever you have cloned from (ofcourse 
+it has to be approved by the author). Branches are simply paths that we create 
+which are for our personal use. Not necessary to upload them or do anything 
+such.
 
-Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+Q: What is the benefit of having a copy of the last known state of the remote 
+stored locally?
 
-A: When the last known state of the remote is stored, the position of origin/master is stored. Now when we are working offline, we can make commits to our local repository and not disturb the state of the remote last archived. Again when we get back online, we can easily update the repository from where we left by creating a branch. This will allow us not to be disturbed in our work. Later when our work is complete, we can merge it back and push it to the Github repository.
+A: When the last known state of the remote is stored, the position of origin/master
+ is stored. Now when we are working offline, we can make commits to our local 
+ repository and not disturb the state of the remote last archived. Again when we 
+ get back online, we can easily update the repository from where we left by 
+ creating a branch. This will allow us not to be disturbed in our work. Later 
+ when our work is complete, we can merge it back and push it to the Github 
+ repository.
 
-Q: How would you collaborate without using Git or Github? What would be easier and what would be harder?
+Q: How would you collaborate without using Git or Github? What would be 
+easier and what would be harder?
 
-A: Sending in long pieces of information (especially codes) through email will be a tedious job as there will be no proper management of the code and difficult to explain what exactly is happening. But when we use Git or Github, all such things are managed and we can focus on the more necessary work. Using Git and Github would be more easier than using any other kind of service.
+A: Sending in long pieces of information (especially codes) through email will 
+be a tedious job as there will be no proper management of the code and 
+difficult to explain what exactly is happening. But when we use Git or 
+Github, all such things are managed and we can focus on the more necessary 
+work. Using Git and Github would be more easier than using any other kind 
+of service.
 
-Q: When would you want to make changes in a seperate branch rather than directly in master? What benefits do each approach have?
+Q: When would you want to make changes in a seperate branch rather than 
+directly in master? What benefits do each approach have?
 
-A: When we are working on some feature and before it gets incorporated into the main product, if we want to get feedback and approval, then we can have a separate branch and work on it. Later we can push that branch and go for a pull request. If the other collaborators find it good, they can than merge it into the master. Rather than updating on the master, if we work separately on our own branches, it won't introduce conflicts which we might not know of. Better to go with a different branch and later merge them.
+A: When we are working on some feature and before it gets incorporated into 
+the main product, if we want to get feedback and approval, then we can have 
+a separate branch and work on it. Later we can push that branch and go for 
+a pull request. If the other collaborators find it good, they can than merge 
+it into the master. Rather than updating on the master, if we work separately 
+on our own branches, it won't introduce conflicts which we might not know of. 
+Better to go with a different branch and later merge them.

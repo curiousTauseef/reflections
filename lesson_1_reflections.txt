@@ -1,4 +1,5 @@
-Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Q: How did viewing a diff between two versions of a file help you see the bug 
+that was introduced?
 
 A: diff helped me compare both the files and showed me where exactly 
 the error was lying. This helped me to understand what are the exact
@@ -51,5 +52,6 @@ and find exactly where bug is there.
 
 Q: Now that you have your workspace set up, what do you want to try using git for?
 
-A: I want to use it for writing programs, making changes and reverting back to the previous versions. I want to work on my small programs and do the same there. 
+A: I want to use it for writing programs, making changes and reverting back to the 
+previous versions. I want to work on my small programs and do the same there. 
 
